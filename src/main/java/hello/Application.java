@@ -11,7 +11,7 @@ public class Application {
 
     @RequestMapping("/")
     public String home() {
-        return "Hello Kubernetes World";
+        return "Hello Kubernetes World V 1.0.3";
     }
 
     public static void main(String[] args) {
