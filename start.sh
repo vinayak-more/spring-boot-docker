@@ -1,0 +1,1 @@
+sudo docker run -p 8888:8888 -v /tmp/log:/tmp/log -ti spring-boot-docker:latest
