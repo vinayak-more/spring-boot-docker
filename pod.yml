@@ -1,0 +1,13 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: demo
+  labels:
+    purpose: demo-app
+spec:
+  containers:
+   name: envar-demo-container
+    image: vinayak3460/spring-boot-docker:1.0.4
+    env:
+     name: spring.datasource.url
+      value: jdbc:mysql://127.0.0.1:3306/db_example?useSSL=false

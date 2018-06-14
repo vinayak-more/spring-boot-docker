@@ -1,0 +1,1 @@
+sudo docker run --net="host" -e spring.datasource.url=jdbc:mysql://127.0.0.1:3306/db_example?useSSL=false -ti spring-boot-docker:latest 
